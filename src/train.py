@@ -1,4 +1,3 @@
-```python
 import pandas as pd
 import joblib
 import os
@@ -49,4 +48,4 @@ joblib.dump(model, model_path)
 
 print("Model trained successfully.")
 print(f"Model saved to: {model_path}")
-```
+
