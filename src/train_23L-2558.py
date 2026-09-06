@@ -1,3 +1,4 @@
+```python
 import pandas as pd
 import joblib
 import os
@@ -10,6 +11,7 @@ STUDENT_ID = "23L-2558"
 
 print(f"Loading dataset for Student ID: {STUDENT_ID}")
 print("Applying data normalization...")
+print("Applying standard scaling...")
 
 # Load dataset
 data = pd.read_csv("data/house_prices.csv")
@@ -47,3 +49,4 @@ joblib.dump(model, model_path)
 
 print("Model trained successfully.")
 print(f"Model saved to: {model_path}")
+```
