@@ -9,6 +9,7 @@ from sklearn.ensemble import RandomForestRegressor
 STUDENT_ID = "23L-2558"
 
 print(f"Loading dataset for Student ID: {STUDENT_ID}")
+print("Applying standard scaling...")
 
 # Load dataset
 data = pd.read_csv("data/house_prices.csv")
